@@ -6,8 +6,8 @@
 - [Zápis kódu při práci s modulem turtle](#zápis-kódu-při-práci-s-modulem-turtle)
 - [Nepleťte si objekty!](#nepleťte-si-objekty)
 - [Důležité funkce](#důležité-funkce)
-    - [Funkce pro pohyb želvou (voláme z želvy)](#funkce-pro-pohyb-želvou-voláme-z-želvy)
-    - [Funkce pro získání stavu želvy (voláme z želvy)](#funkce-pro-získání-stavu-želvy-voláme-z-želvy)
+- [Funkce pro pohyb želvou (voláme z želvy)](#funkce-pro-pohyb-želvou-voláme-z-želvy)
+- [Funkce pro získání stavu želvy (voláme z želvy)](#funkce-pro-získání-stavu-želvy-voláme-z-želvy)
 
 ## Zavedení modulu a založení želvy
 
