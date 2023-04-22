@@ -1,17 +1,17 @@
-# Python Programování Tahák
+# Python Programování Tahák (na souboru se stále pracuje)
 
 ## Obsah
 
-- [Python Programování Tahák](#python-programování-tahák)
-  - [Proměnné](#proměnné)
-    - [Deklarace](#deklarace)
-    - [Datové typy proměnných](#datové-typy-proměnných)
-    - [Přetypování proměnných](#přetypování-proměnných)
-  - [Řídící struktury jazyka](#řídící-struktury-jazyka)
-    - [Cykly](#cykly)
-      - [Cyklus for](#cyklus-for)
-      - [Cyklus while](#cyklus-while)
-    - [Podmínky](#podmínky)
+
+- [Proměnné](#proměnné)
+  - [Deklarace](#deklarace)
+  - [Datové typy proměnných](#datové-typy-proměnných)
+  - [Přetypování proměnných](#přetypování-proměnných)
+- [Řídící struktury jazyka](#řídící-struktury-jazyka)
+  - [Cykly](#cykly)
+    - [Cyklus for](#cyklus-for)
+    - [Cyklus while](#cyklus-while)
+  - [Podmínky](#podmínky)
 
 
 ## Proměnné
