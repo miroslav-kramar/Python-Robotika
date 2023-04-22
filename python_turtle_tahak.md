@@ -1,4 +1,14 @@
-# Python Turtle Tahák
+# Python Turtle Tahák (na souboru se stále pracuje)
+
+## Obsah 
+
+1. [Zavedení modulu a založení želvy](#zavedeni-modulu-a-zalozeni-zelvy)
+2. [Zápis kódu při práci s modulem turtle](#zapis-kodu-pri-praci-s-modulem-turtle)
+3. [Nepleťte si objekty!](#neplette-si-objekty)
+4. [Důležité funkce](#dulezite-funkce)
+    1. [Funkce pro pohyb želvou (voláme z želvy)](#funkce-pro-pohyb-zelvou-volame-z-zelvy)
+    2. [Funkce pro získání stavu želvy (voláme z želvy)](#funkce-pro-ziskani-stavu-zelvy-volame-z-zelvy)
+
 
 ## Zavedení modulu a založení želvy
 
