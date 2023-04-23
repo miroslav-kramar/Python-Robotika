@@ -1,4 +1,4 @@
-# Python Programování Tahák (na souboru se stále pracuje)
+# Python Programování Tahák
 
 ## Obsah
 
@@ -7,12 +7,14 @@
   - [Deklarace](#deklarace)
   - [Datové typy proměnných](#datové-typy-proměnných)
   - [Přetypování proměnných](#přetypování-proměnných)
+  - [Pole](#pole)
 - [Řídící struktury jazyka](#řídící-struktury-jazyka)
   - [Cykly](#cykly)
     - [Cyklus for](#cyklus-for)
     - [Cyklus while](#cyklus-while)
   - [Podmínky](#podmínky)
-
+    - [If/Else](#ifelse)  
+- [Funkce](#funkce)
 
 ## Proměnné
 
@@ -62,6 +64,18 @@ x = int(x)  # konverze v tomto pripade selze, ponevadz string "ahoj" nelze smysl
             # program v tomto pripade spadne
 ```
 
+#### Pole
+
+Pole je ve své podstatě proměnnou, která dokáže držet více hodnot. Každá hodnota má svůj index (pozici v poli). Pole se indexuje od 0.
+
+```python
+pole = [1,2,3,4]  # deklarace a definice pole se 4 prvky
+len(pole)         # funkce len() vrati delku pole (v nasem pripade 4)
+pole.append(5)    # prida na konec pole cislo 5
+pole.insert(0, 0) # na prvni pozici vlozi cislo 0, zbytek pole se posune o index dal
+pole[1] = 10      # nahradi cislo na pozici 1 cislem 10
+```
+
 ## Řídící struktury jazyka
 
 ### Cykly
@@ -99,6 +113,8 @@ V tomto případě bude vypisovat hodnotu proměnné *x*, dokud hodnota *x* nebu
 
 ### Podmínky
 
+#### If/Else
+
 ```python
 x = 1
 
@@ -106,6 +122,11 @@ if x == 1:
     print("x je 1")
 elif x == 2:
     print("x je 2")
+elif x == 3:
+    print("x je 3")    
 else:
-    print("x neni 1 ani 2")
+    print("x je neco jineho")
 ```
+
+## Funkce
+
