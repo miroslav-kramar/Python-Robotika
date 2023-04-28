@@ -66,15 +66,16 @@ x = int(x)  # konverze v tomto pripade selze, ponevadz string "ahoj" nelze smysl
 
 #### Pole
 
-Pole je ve své podstatě proměnnou, která dokáže držet více hodnot. Každá hodnota má svůj index (pozici v poli). Pole se indexuje od 0.
+Pole je ve své podstatě proměnnou, která dokáže držet více hodnot. Každá hodnota má svůj index (pozici v poli). Pole se indexuje od 0. Počet pozic pole je teoreticky neomezený.
 
 ```python
 pole = [1,2,3,4]  # deklarace a definice pole se 4 prvky
 len(pole)         # funkce len() vrati delku pole (v nasem pripade 4)
+pole[1] = 10      # nahradi cislo na pozici 1 cislem 10
 pole.append(5)    # prida na konec pole cislo 5
 pole.insert(0, 0) # na prvni pozici vlozi cislo 0, zbytek pole se posune o index dal
-pole[1] = 10      # nahradi cislo na pozici 1 cislem 10
 pole.pop(0)       # odstrani prvni pozici
+pole.sort()       # seradi prvky v poli vzestupne
 ```
 
 ## Řídící struktury jazyka
@@ -131,15 +132,26 @@ else:
 
 ## Funkce
 
-Funkce je blok kódu, který lze volat tolikrát, kolikrát potřebujeme. Funkci definujeme pomocí klíčového slova ```def```. Funkci lze předávat argumenty, se kterými bude pracovat a lze z ní také vracet zpracované hodnoty.
+Funkce je blok kódu, který lze volat tolikrát, kolikrát potřebujeme. Funkci definujeme pomocí klíčového slova ```def```. Funkci můžeme také předávat jeden a více argumentů (vstupních hodnot), se kterými bude pracovat a lze z ní také vracet zpracované hodnoty.
 
-Příklad jednoduché funkce, která vrátí číslo o 1 větší, než jsme zadali:
+Příklad funkce s jedním argumentem, která vrátí číslo o 1 větší, než jsme zadali:
 
 ```python
-def funkce(argument):
-  return argument + 1
+def funkce(arg):
+  return arg + 1
   
 print(funkce(1)) # funkce v tomto pripade vrati cislo 2
 print(funkce(2)) # funkce v tomto pripade vrati cislo 3
 print(funkce(3)) # funkce v tomto pripade vrati cislo 4
+```
+
+Příklad funkce s více argumenty, která vrátí jejich součin
+
+```python
+def funkce(arg1, arg2):
+  vystup = arg1 * arg2
+  return vystup
+  
+print(funkce(2, 3)) # funkce v tomto pripade vrati cislo 6
+print(funkce(3, 4)) # funkce v tomto pripade vrati cislo 12
 ```
