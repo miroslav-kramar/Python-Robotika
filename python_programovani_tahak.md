@@ -130,3 +130,15 @@ else:
 
 ## Funkce
 
+Funkce je blok kódu, který lze volat tolikrát, kolikrát potřebujeme. Funkci definujeme pomocí klíčového slova ```def```. Funkci lze předávat argumenty, se kterými bude pracovat a lze z ní také vracet zpracované hodnoty.
+
+Příklad jednoduché funkce, která vrátí číslo o 1 větší, než jsme zadali:
+
+```python
+def funkce(argument):
+  return argument + 1
+  
+print(funkce(1)) # funkce v tomto pripade vrati cislo 2
+print(funkce(2)) # funkce v tomto pripade vrati cislo 3
+print(funkce(3)) # funkce v tomto pripade vrati cislo 4
+```
