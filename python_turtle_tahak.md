@@ -51,7 +51,7 @@ objekt.funkce() # provedeni funkce objektu
 
 Trocha zmatení může nastat kvůli faktu, že se nám tu "míchají" dva zdánlivě totožné objekty:
 - "naše" želva, jenž je objektem třídy *Turtle*,
-- objekt turtle, který je nadřazen "naší" želvě a zodpovídá za práci s oknem. Jeho nejčastěji volaná funkce je ```turtle.done()```.
+- objekt *turtle*, který je nadřazen "naší" želvě a zodpovídá za práci s oknem. Jeho nejčastěji volaná funkce je ```turtle.done()```.
 
 # Důležité funkce
 
