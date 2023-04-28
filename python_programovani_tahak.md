@@ -74,6 +74,7 @@ len(pole)         # funkce len() vrati delku pole (v nasem pripade 4)
 pole.append(5)    # prida na konec pole cislo 5
 pole.insert(0, 0) # na prvni pozici vlozi cislo 0, zbytek pole se posune o index dal
 pole[1] = 10      # nahradi cislo na pozici 1 cislem 10
+pole.pop(0)       # odstrani prvni pozici
 ```
 
 ## Řídící struktury jazyka
